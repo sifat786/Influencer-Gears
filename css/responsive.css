@@ -26,6 +26,7 @@ body{
 /*! nav start */
 nav{
     padding-top: 35px;
+    padding-bottom: 20px;
 }
 nav h3{
     font-size: 18px;
@@ -45,7 +46,6 @@ nav > ul{
 /*! banner start */
 .banner{
     flex-direction: column-reverse;
-
 }
 .banner-details h1{
     width: 404px;
