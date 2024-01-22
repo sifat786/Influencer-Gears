@@ -1,17 +1,142 @@
 @media screen and (max-width: 576px) {
-    
-/*! nav start */
 
+/*! Common Style  */
+header,main{
+    background: #fff;
+    max-width: 330px;
+    margin: 0 auto;
+}
+body{
+    overflow-x: hidden;
+}
+.section-heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+.section-para{
+    width: 321px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
 
+/*! nav start */
+nav{
+    padding-top: 35px;
+}
+nav .bar{
+    display: block;
+    color: #3A3A3A;
+}
+nav .shop{
+    display: block;
+    color: #3A3A3A;
+}
+nav > ul{
+    display: none;
+}
+/*! nav end */
+/*! banner start */
+.banner{
+    flex-direction: column-reverse;
 
-/*! nav end */
-/*! nav start */
-/*! nav end */
-/*! nav start */
-/*! nav end */
-/*! nav start */
-/*! nav end */
-/*! nav start */
-/*! nav end */
+}
+.banner-details h1{
+    width: 404px;
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-top: 10px;
+}
+.banner-details p{
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-details button{
+    font-weight: 500;
+}
+.banner-content{
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+}
+.banner-img img{
+    width: 250px;
+    height: 230px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+}
+/*! banner end */
+/*! logo start */
+.logo{
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+.logo-img{
+    flex-wrap: wrap;
+    column-gap: 31px;
+    row-gap: 25px;
+    padding: 0;
+}
+.logo hr{
+    display: none;
+}
+/*! logo end */
+/*! popular start */
+.popular-content{
+    padding-top: 20px;
+    padding-bottom: 32px;
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+    row-gap: 30px;
+}
+/*! popular end */
+/*! gear start */
+.gear{
+    padding: 50px 0;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.gear-details h3{
+    text-align: center;
+}
+.gear-details p{
+    text-align: center;
+}
+.gear-btn{
+    display: grid;
+    place-items: center;
+}
+.gear-details button{
+    margin-bottom: 30px;
+}
+/*! gear end */
+/*! footer start */
+.footer-details h4{
+    font-size: 16px;
+}
+.footer-details .fp1{
+    font-size: 12px;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+.footer-details .fp2{
+    font-size: 12px;
+}
+.footer-icons{
+    gap: 7px;
+    padding-top: 15px;
+}
+
+/*! footer end */
 
 }
