@@ -44,6 +44,11 @@ nav{
     padding-top: 80px;
     padding-bottom: 50px;
 }
+nav h3{
+    color: #3A3A3A;
+    font-size: 26px;
+    font-weight: 700;
+}
 nav .bar{
     display: none;
 }

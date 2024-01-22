@@ -27,6 +27,9 @@ body{
 nav{
     padding-top: 35px;
 }
+nav h3{
+    font-size: 18px;
+}
 nav .bar{
     display: block;
     color: #3A3A3A;
